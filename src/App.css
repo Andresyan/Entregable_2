@@ -1,0 +1,58 @@
+.App {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.container{
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #E7EFF4;
+  font-weight: 600;
+}
+h3, p{
+  margin: 0;
+  font-size: 25px;
+}
+h2{
+  font-size: 30px;
+}
+ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+li{
+  margin: 5px;
+}
+button{
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.img-icon{
+  border-radius: 50%;
+}
+.img-icon img{
+  width: 120px;
+  height: 120px;
+  
+}
+.container-img{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
